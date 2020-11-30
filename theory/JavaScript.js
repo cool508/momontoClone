@@ -115,5 +115,25 @@ A || B // A or B 가 T => true
 
 /* ClassList */
 classList /* 클래스를 리스트 형태로 관리, 클래스를 추가 제거할 때 className 대신 사용 하기 */
+/* Function */
 contains()// ()안의 값을 체크 -> 값이 있으면 T 없으면 F 반환
 toggle() // () 안의 값을 체크 -> 값이 있으면 remove, 없으면 add
+setInterval() // (arg1, arg2) -> arg1 : 실행할 함수, arg2 : 실행할 간격 ms 단위
+createElement() // ()안의 요소를 생성한다.
+appendChild() // () 안의 값을 부모 요소안에 넣는다.
+array.forEach(element => { }); // array에 있는 것을 한번 씩 실행시켜줌
+array.filter() // 배열안의 값들에 ()을 실행하여 T인 것들 만 모아 새로운 배열을 만듬  
+Math.floor()// () 안의 값 소수점 이하 버림
+Math.ceil()// () 안의 값 소수점 이하 올림
+then() // 데이터를 다 로딩하면 () 안의 함수를 불러냄
+/* 삼항연산자 */
+// 작은 조건문  
+A ? B : C  // A 면 B 를 실행 아니면 C 실행
+
+/* localStorage */
+// 브라우저에 JS 정보를 저장하는 작은 공간
+// localStorage는 JS의 데이터를 저장 할 수 없다. String만 저장가능
+
+/* JSON (JavaScript Object Notation) : 데이터 전달시 JS가 다룰 수 있도록 object로 바꿔줌*/
+JSON.stringify() // ()안의 object 를 string으로 바꿔줌
+JSON.JSON.parse() // ()안의 string 를 object로 바꿔줌
